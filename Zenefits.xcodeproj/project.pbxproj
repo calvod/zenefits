@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F130DB4119EC9C8C0073071C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DB4019EC9C8C0073071C /* main.m */; };
+		F130DB4419EC9C8C0073071C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DB4319EC9C8C0073071C /* AppDelegate.m */; };
+		F130DB4719EC9C8C0073071C /* HRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DB4619EC9C8C0073071C /* HRViewController.m */; };
+		F130DB4A19EC9C8C0073071C /* BenefitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DB4919EC9C8C0073071C /* BenefitsViewController.m */; };
+		F130DB4D19EC9C8C0073071C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F130DB4B19EC9C8C0073071C /* Main.storyboard */; };
+		F130DB4F19EC9C8D0073071C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F130DB4E19EC9C8D0073071C /* Images.xcassets */; };
+		F130DB5219EC9C8D0073071C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F130DB5019EC9C8D0073071C /* LaunchScreen.xib */; };
+		F130DB5E19EC9C8D0073071C /* ZenefitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DB5D19EC9C8D0073071C /* ZenefitsTests.m */; };
+		F130DB7B19ECC2430073071C /* 401k.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB6E19ECC2430073071C /* 401k.png */; };
+		F130DB7C19ECC2430073071C /* commuterBenefits.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB6F19ECC2430073071C /* commuterBenefits.png */; };
+		F130DB7D19ECC2430073071C /* flexSpending.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7019ECC2430073071C /* flexSpending.png */; };
+		F130DB7E19ECC2430073071C /* lifeDisability.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7119ECC2430073071C /* lifeDisability.png */; };
+		F130DB7F19ECC2430073071C /* medicalDentalVision.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7219ECC2430073071C /* medicalDentalVision.png */; };
+		F130DB8019ECC2430073071C /* contractors.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7419ECC2430073071C /* contractors.png */; };
+		F130DB8119ECC2430073071C /* employees.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7519ECC2430073071C /* employees.png */; };
+		F130DB8219ECC2430073071C /* payroll.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7619ECC2430073071C /* payroll.png */; };
+		F130DB8319ECC2430073071C /* ptoTracking.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7719ECC2430073071C /* ptoTracking.png */; };
+		F130DB8419ECC2430073071C /* reports.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7819ECC2430073071C /* reports.png */; };
+		F130DB8519ECC2430073071C /* stockOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7919ECC2430073071C /* stockOptions.png */; };
+		F130DB8619ECC2430073071C /* timeAttendance.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB7A19ECC2430073071C /* timeAttendance.png */; };
+		F130DB8A19ECC2530073071C /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB8819ECC2530073071C /* appIcon.png */; };
+		F130DB8B19ECC2530073071C /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB8919ECC2530073071C /* launch.png */; };
+		F130DB9219ECC7CD0073071C /* textEmployees.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB8C19ECC7CD0073071C /* textEmployees.png */; };
+		F130DB9319ECC7CD0073071C /* textPayroll.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB8D19ECC7CD0073071C /* textPayroll.png */; };
+		F130DB9419ECC7CD0073071C /* textPTO.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB8E19ECC7CD0073071C /* textPTO.png */; };
+		F130DB9519ECC7CD0073071C /* textReports.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB8F19ECC7CD0073071C /* textReports.png */; };
+		F130DB9619ECC7CD0073071C /* textStockOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB9019ECC7CD0073071C /* textStockOptions.png */; };
+		F130DB9919ECC9400073071C /* textContractors.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB9819ECC9400073071C /* textContractors.png */; };
+		F130DB9C19ECCC270073071C /* textAttendance.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB9A19ECCC270073071C /* textAttendance.png */; };
+		F130DB9D19ECCC270073071C /* textTime.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DB9B19ECCC270073071C /* textTime.png */; };
+		F130DBA019ECDF360073071C /* CompanyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F130DB9F19ECDF360073071C /* CompanyProfileViewController.m */; };
+		F130DBA519ECECBC0073071C /* MPoweredLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBA119ECECBC0073071C /* MPoweredLogo.png */; };
+		F130DBA619ECECBC0073071C /* tabBenefits.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBA219ECECBC0073071C /* tabBenefits.png */; };
+		F130DBA719ECECBC0073071C /* tabCompany.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBA319ECECBC0073071C /* tabCompany.png */; };
+		F130DBA819ECECBC0073071C /* tabHR.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBA419ECECBC0073071C /* tabHR.png */; };
+		F130DBAE19ECF1790073071C /* companyInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAA19ECF1790073071C /* companyInfo.png */; };
+		F130DBAF19ECF1790073071C /* customFields.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAB19ECF1790073071C /* customFields.png */; };
+		F130DBB019ECF1790073071C /* employees.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAC19ECF1790073071C /* employees.png */; };
+		F130DBB119ECF1790073071C /* manageAdmins.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAD19ECF1790073071C /* manageAdmins.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F130DB5819EC9C8D0073071C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F130DB3319EC9C8C0073071C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F130DB3A19EC9C8C0073071C;
+			remoteInfo = Zenefits;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F130DB3B19EC9C8C0073071C /* Zenefits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenefits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130DB3F19EC9C8C0073071C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130DB4019EC9C8C0073071C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F130DB4219EC9C8C0073071C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F130DB4319EC9C8C0073071C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F130DB4519EC9C8C0073071C /* HRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRViewController.h; sourceTree = "<group>"; };
+		F130DB4619EC9C8C0073071C /* HRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRViewController.m; sourceTree = "<group>"; };
+		F130DB4819EC9C8C0073071C /* BenefitsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenefitsViewController.h; sourceTree = "<group>"; };
+		F130DB4919EC9C8C0073071C /* BenefitsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenefitsViewController.m; sourceTree = "<group>"; };
+		F130DB4C19EC9C8C0073071C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F130DB4E19EC9C8D0073071C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F130DB5119EC9C8D0073071C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F130DB5719EC9C8D0073071C /* ZenefitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenefitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F130DB5C19EC9C8D0073071C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F130DB5D19EC9C8D0073071C /* ZenefitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZenefitsTests.m; sourceTree = "<group>"; };
+		F130DB6E19ECC2430073071C /* 401k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 401k.png; sourceTree = "<group>"; };
+		F130DB6F19ECC2430073071C /* commuterBenefits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commuterBenefits.png; sourceTree = "<group>"; };
+		F130DB7019ECC2430073071C /* flexSpending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flexSpending.png; sourceTree = "<group>"; };
+		F130DB7119ECC2430073071C /* lifeDisability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeDisability.png; sourceTree = "<group>"; };
+		F130DB7219ECC2430073071C /* medicalDentalVision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medicalDentalVision.png; sourceTree = "<group>"; };
+		F130DB7419ECC2430073071C /* contractors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contractors.png; sourceTree = "<group>"; };
+		F130DB7519ECC2430073071C /* employees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employees.png; sourceTree = "<group>"; };
+		F130DB7619ECC2430073071C /* payroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payroll.png; sourceTree = "<group>"; };
+		F130DB7719ECC2430073071C /* ptoTracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ptoTracking.png; sourceTree = "<group>"; };
+		F130DB7819ECC2430073071C /* reports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reports.png; sourceTree = "<group>"; };
+		F130DB7919ECC2430073071C /* stockOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stockOptions.png; sourceTree = "<group>"; };
+		F130DB7A19ECC2430073071C /* timeAttendance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeAttendance.png; sourceTree = "<group>"; };
+		F130DB8819ECC2530073071C /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		F130DB8919ECC2530073071C /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		F130DB8C19ECC7CD0073071C /* textEmployees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textEmployees.png; sourceTree = "<group>"; };
+		F130DB8D19ECC7CD0073071C /* textPayroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textPayroll.png; sourceTree = "<group>"; };
+		F130DB8E19ECC7CD0073071C /* textPTO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textPTO.png; sourceTree = "<group>"; };
+		F130DB8F19ECC7CD0073071C /* textReports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textReports.png; sourceTree = "<group>"; };
+		F130DB9019ECC7CD0073071C /* textStockOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textStockOptions.png; sourceTree = "<group>"; };
+		F130DB9819ECC9400073071C /* textContractors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textContractors.png; sourceTree = "<group>"; };
+		F130DB9A19ECCC270073071C /* textAttendance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textAttendance.png; sourceTree = "<group>"; };
+		F130DB9B19ECCC270073071C /* textTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textTime.png; sourceTree = "<group>"; };
+		F130DB9E19ECDE690073071C /* CompanyProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyProfileViewController.h; sourceTree = "<group>"; };
+		F130DB9F19ECDF360073071C /* CompanyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyProfileViewController.m; sourceTree = "<group>"; };
+		F130DBA119ECECBC0073071C /* MPoweredLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPoweredLogo.png; sourceTree = "<group>"; };
+		F130DBA219ECECBC0073071C /* tabBenefits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBenefits.png; sourceTree = "<group>"; };
+		F130DBA319ECECBC0073071C /* tabCompany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabCompany.png; sourceTree = "<group>"; };
+		F130DBA419ECECBC0073071C /* tabHR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabHR.png; sourceTree = "<group>"; };
+		F130DBAA19ECF1790073071C /* companyInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = companyInfo.png; sourceTree = "<group>"; };
+		F130DBAB19ECF1790073071C /* customFields.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customFields.png; sourceTree = "<group>"; };
+		F130DBAC19ECF1790073071C /* employees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employees.png; sourceTree = "<group>"; };
+		F130DBAD19ECF1790073071C /* manageAdmins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manageAdmins.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F130DB3819EC9C8C0073071C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130DB5419EC9C8D0073071C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F130DB3219EC9C8C0073071C = {
+			isa = PBXGroup;
+			children = (
+				F130DB3D19EC9C8C0073071C /* Zenefits */,
+				F130DB5A19EC9C8D0073071C /* ZenefitsTests */,
+				F130DB3C19EC9C8C0073071C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F130DB3C19EC9C8C0073071C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB3B19EC9C8C0073071C /* Zenefits.app */,
+				F130DB5719EC9C8D0073071C /* ZenefitsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F130DB3D19EC9C8C0073071C /* Zenefits */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB6819ECB2040073071C /* pics */,
+				F130DB4219EC9C8C0073071C /* AppDelegate.h */,
+				F130DB4319EC9C8C0073071C /* AppDelegate.m */,
+				F130DB4519EC9C8C0073071C /* HRViewController.h */,
+				F130DB4619EC9C8C0073071C /* HRViewController.m */,
+				F130DB4819EC9C8C0073071C /* BenefitsViewController.h */,
+				F130DB4919EC9C8C0073071C /* BenefitsViewController.m */,
+				F130DB4B19EC9C8C0073071C /* Main.storyboard */,
+				F130DB9E19ECDE690073071C /* CompanyProfileViewController.h */,
+				F130DB9F19ECDF360073071C /* CompanyProfileViewController.m */,
+				F130DB4E19EC9C8D0073071C /* Images.xcassets */,
+				F130DB5019EC9C8D0073071C /* LaunchScreen.xib */,
+				F130DB3E19EC9C8C0073071C /* Supporting Files */,
+			);
+			path = Zenefits;
+			sourceTree = "<group>";
+		};
+		F130DB3E19EC9C8C0073071C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB3F19EC9C8C0073071C /* Info.plist */,
+				F130DB4019EC9C8C0073071C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F130DB5A19EC9C8D0073071C /* ZenefitsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB5D19EC9C8D0073071C /* ZenefitsTests.m */,
+				F130DB5B19EC9C8D0073071C /* Supporting Files */,
+			);
+			path = ZenefitsTests;
+			sourceTree = "<group>";
+		};
+		F130DB5B19EC9C8D0073071C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB5C19EC9C8D0073071C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F130DB6819ECB2040073071C /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				F130DBA919ECF1790073071C /* yourCompany */,
+				F130DB8719ECC2530073071C /* app */,
+				F130DB6D19ECC2430073071C /* Benefits */,
+				F130DB7319ECC2430073071C /* HR */,
+			);
+			path = pics;
+			sourceTree = SOURCE_ROOT;
+		};
+		F130DB6D19ECC2430073071C /* Benefits */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB6E19ECC2430073071C /* 401k.png */,
+				F130DB6F19ECC2430073071C /* commuterBenefits.png */,
+				F130DB7019ECC2430073071C /* flexSpending.png */,
+				F130DB7119ECC2430073071C /* lifeDisability.png */,
+				F130DB7219ECC2430073071C /* medicalDentalVision.png */,
+			);
+			path = Benefits;
+			sourceTree = "<group>";
+		};
+		F130DB7319ECC2430073071C /* HR */ = {
+			isa = PBXGroup;
+			children = (
+				F130DB9A19ECCC270073071C /* textAttendance.png */,
+				F130DB9B19ECCC270073071C /* textTime.png */,
+				F130DB8C19ECC7CD0073071C /* textEmployees.png */,
+				F130DB8D19ECC7CD0073071C /* textPayroll.png */,
+				F130DB8E19ECC7CD0073071C /* textPTO.png */,
+				F130DB9819ECC9400073071C /* textContractors.png */,
+				F130DB8F19ECC7CD0073071C /* textReports.png */,
+				F130DB9019ECC7CD0073071C /* textStockOptions.png */,
+				F130DB7419ECC2430073071C /* contractors.png */,
+				F130DB7519ECC2430073071C /* employees.png */,
+				F130DB7619ECC2430073071C /* payroll.png */,
+				F130DB7719ECC2430073071C /* ptoTracking.png */,
+				F130DB7819ECC2430073071C /* reports.png */,
+				F130DB7919ECC2430073071C /* stockOptions.png */,
+				F130DB7A19ECC2430073071C /* timeAttendance.png */,
+			);
+			path = HR;
+			sourceTree = "<group>";
+		};
+		F130DB8719ECC2530073071C /* app */ = {
+			isa = PBXGroup;
+			children = (
+				F130DBA119ECECBC0073071C /* MPoweredLogo.png */,
+				F130DBA219ECECBC0073071C /* tabBenefits.png */,
+				F130DBA319ECECBC0073071C /* tabCompany.png */,
+				F130DBA419ECECBC0073071C /* tabHR.png */,
+				F130DB8819ECC2530073071C /* appIcon.png */,
+				F130DB8919ECC2530073071C /* launch.png */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		F130DBA919ECF1790073071C /* yourCompany */ = {
+			isa = PBXGroup;
+			children = (
+				F130DBAA19ECF1790073071C /* companyInfo.png */,
+				F130DBAB19ECF1790073071C /* customFields.png */,
+				F130DBAC19ECF1790073071C /* employees.png */,
+				F130DBAD19ECF1790073071C /* manageAdmins.png */,
+			);
+			path = yourCompany;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F130DB3A19EC9C8C0073071C /* Zenefits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130DB6119EC9C8D0073071C /* Build configuration list for PBXNativeTarget "Zenefits" */;
+			buildPhases = (
+				F130DB3719EC9C8C0073071C /* Sources */,
+				F130DB3819EC9C8C0073071C /* Frameworks */,
+				F130DB3919EC9C8C0073071C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zenefits;
+			productName = Zenefits;
+			productReference = F130DB3B19EC9C8C0073071C /* Zenefits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F130DB5619EC9C8D0073071C /* ZenefitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F130DB6419EC9C8D0073071C /* Build configuration list for PBXNativeTarget "ZenefitsTests" */;
+			buildPhases = (
+				F130DB5319EC9C8D0073071C /* Sources */,
+				F130DB5419EC9C8D0073071C /* Frameworks */,
+				F130DB5519EC9C8D0073071C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F130DB5919EC9C8D0073071C /* PBXTargetDependency */,
+			);
+			name = ZenefitsTests;
+			productName = ZenefitsTests;
+			productReference = F130DB5719EC9C8D0073071C /* ZenefitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F130DB3319EC9C8C0073071C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Diego Calvo";
+				TargetAttributes = {
+					F130DB3A19EC9C8C0073071C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F130DB5619EC9C8D0073071C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F130DB3A19EC9C8C0073071C;
+					};
+				};
+			};
+			buildConfigurationList = F130DB3619EC9C8C0073071C /* Build configuration list for PBXProject "Zenefits" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F130DB3219EC9C8C0073071C;
+			productRefGroup = F130DB3C19EC9C8C0073071C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F130DB3A19EC9C8C0073071C /* Zenefits */,
+				F130DB5619EC9C8D0073071C /* ZenefitsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F130DB3919EC9C8C0073071C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130DB9319ECC7CD0073071C /* textPayroll.png in Resources */,
+				F130DB9519ECC7CD0073071C /* textReports.png in Resources */,
+				F130DB8019ECC2430073071C /* contractors.png in Resources */,
+				F130DB7C19ECC2430073071C /* commuterBenefits.png in Resources */,
+				F130DB8519ECC2430073071C /* stockOptions.png in Resources */,
+				F130DBA519ECECBC0073071C /* MPoweredLogo.png in Resources */,
+				F130DB7E19ECC2430073071C /* lifeDisability.png in Resources */,
+				F130DBA819ECECBC0073071C /* tabHR.png in Resources */,
+				F130DBA719ECECBC0073071C /* tabCompany.png in Resources */,
+				F130DB8B19ECC2530073071C /* launch.png in Resources */,
+				F130DB9419ECC7CD0073071C /* textPTO.png in Resources */,
+				F130DB7D19ECC2430073071C /* flexSpending.png in Resources */,
+				F130DB7F19ECC2430073071C /* medicalDentalVision.png in Resources */,
+				F130DB9619ECC7CD0073071C /* textStockOptions.png in Resources */,
+				F130DB8619ECC2430073071C /* timeAttendance.png in Resources */,
+				F130DB8419ECC2430073071C /* reports.png in Resources */,
+				F130DB9919ECC9400073071C /* textContractors.png in Resources */,
+				F130DB8A19ECC2530073071C /* appIcon.png in Resources */,
+				F130DB8219ECC2430073071C /* payroll.png in Resources */,
+				F130DBB019ECF1790073071C /* employees.png in Resources */,
+				F130DB8319ECC2430073071C /* ptoTracking.png in Resources */,
+				F130DB9219ECC7CD0073071C /* textEmployees.png in Resources */,
+				F130DB9C19ECCC270073071C /* textAttendance.png in Resources */,
+				F130DBB119ECF1790073071C /* manageAdmins.png in Resources */,
+				F130DB4D19EC9C8C0073071C /* Main.storyboard in Resources */,
+				F130DB9D19ECCC270073071C /* textTime.png in Resources */,
+				F130DB7B19ECC2430073071C /* 401k.png in Resources */,
+				F130DBAF19ECF1790073071C /* customFields.png in Resources */,
+				F130DB5219EC9C8D0073071C /* LaunchScreen.xib in Resources */,
+				F130DB4F19EC9C8D0073071C /* Images.xcassets in Resources */,
+				F130DB8119ECC2430073071C /* employees.png in Resources */,
+				F130DBA619ECECBC0073071C /* tabBenefits.png in Resources */,
+				F130DBAE19ECF1790073071C /* companyInfo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130DB5519EC9C8D0073071C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F130DB3719EC9C8C0073071C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130DBA019ECDF360073071C /* CompanyProfileViewController.m in Sources */,
+				F130DB4A19EC9C8C0073071C /* BenefitsViewController.m in Sources */,
+				F130DB4419EC9C8C0073071C /* AppDelegate.m in Sources */,
+				F130DB4719EC9C8C0073071C /* HRViewController.m in Sources */,
+				F130DB4119EC9C8C0073071C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F130DB5319EC9C8D0073071C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F130DB5E19EC9C8D0073071C /* ZenefitsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F130DB5919EC9C8D0073071C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F130DB3A19EC9C8C0073071C /* Zenefits */;
+			targetProxy = F130DB5819EC9C8D0073071C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F130DB4B19EC9C8C0073071C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F130DB4C19EC9C8C0073071C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F130DB5019EC9C8D0073071C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F130DB5119EC9C8D0073071C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F130DB5F19EC9C8D0073071C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F130DB6019EC9C8D0073071C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F130DB6219EC9C8D0073071C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zenefits/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F130DB6319EC9C8D0073071C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zenefits/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F130DB6519EC9C8D0073071C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZenefitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenefits.app/Zenefits";
+			};
+			name = Debug;
+		};
+		F130DB6619EC9C8D0073071C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZenefitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zenefits.app/Zenefits";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F130DB3619EC9C8C0073071C /* Build configuration list for PBXProject "Zenefits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130DB5F19EC9C8D0073071C /* Debug */,
+				F130DB6019EC9C8D0073071C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F130DB6119EC9C8D0073071C /* Build configuration list for PBXNativeTarget "Zenefits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130DB6219EC9C8D0073071C /* Debug */,
+				F130DB6319EC9C8D0073071C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F130DB6419EC9C8D0073071C /* Build configuration list for PBXNativeTarget "ZenefitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F130DB6519EC9C8D0073071C /* Debug */,
+				F130DB6619EC9C8D0073071C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F130DB3319EC9C8C0073071C /* Project object */;
+}
