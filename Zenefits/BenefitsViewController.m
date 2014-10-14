@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated {
     //set title on navigation bar
     self.navigationController.navigationBar.topItem.title = @"Manage Benefits";
 }

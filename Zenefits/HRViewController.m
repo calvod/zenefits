@@ -31,10 +31,15 @@
     //set color of bottom bar
     [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:.9647058 green:.5725490 blue:.1176470 alpha:1]];
     
-    //set title on navigation bar
-    self.navigationController.navigationBar.topItem.title = @"Manage HR";
+   
 
 }
+
+-(void)viewDidAppear:(BOOL)animated {
+    //set title on navigation bar
+    self.navigationController.navigationBar.topItem.title = @"Manage HR";
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

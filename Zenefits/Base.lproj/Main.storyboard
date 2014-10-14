@@ -126,7 +126,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="HR" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="HR" image="tabHR copy.png" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" title="Human Resources" id="S2H-bd-Erd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -214,7 +214,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Benefits" image="first" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Benefits" image="tabBenefits copy.png" id="cPa-gy-q4n"/>
                     <navigationItem key="navigationItem" title="Benefits" id="UqW-9o-2vl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -287,7 +287,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Your Company" image="first" id="Lr2-H5-F0E"/>
+                    <tabBarItem key="tabBarItem" title="Your Company" image="tabCompany copy.png" id="Lr2-H5-F0E"/>
                     <navigationItem key="navigationItem" id="OKC-Jq-wz9">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Jur-6U-hum"/>
                     </navigationItem>
@@ -326,7 +326,6 @@
         <image name="contractors.png" width="53" height="52"/>
         <image name="customFields.png" width="56" height="49"/>
         <image name="employees.png" width="35" height="63"/>
-        <image name="first" width="30" height="30"/>
         <image name="flexSpending.png" width="118" height="131"/>
         <image name="lifeDisability.png" width="110" height="116"/>
         <image name="manageAdmins.png" width="50" height="50"/>
@@ -335,6 +334,9 @@
         <image name="ptoTracking.png" width="52" height="49"/>
         <image name="reports.png" width="55" height="46"/>
         <image name="stockOptions.png" width="34" height="30"/>
+        <image name="tabBenefits copy.png" width="30" height="30"/>
+        <image name="tabCompany copy.png" width="30" height="30"/>
+        <image name="tabHR copy.png" width="30" height="30"/>
         <image name="timeAttendance.png" width="34" height="34"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

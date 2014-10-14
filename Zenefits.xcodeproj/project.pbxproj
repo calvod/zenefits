@@ -46,6 +46,12 @@
 		F130DBAF19ECF1790073071C /* customFields.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAB19ECF1790073071C /* customFields.png */; };
 		F130DBB019ECF1790073071C /* employees.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAC19ECF1790073071C /* employees.png */; };
 		F130DBB119ECF1790073071C /* manageAdmins.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBAD19ECF1790073071C /* manageAdmins.png */; };
+		F130DBB519ECFCED0073071C /* appIcon40.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBB219ECFCED0073071C /* appIcon40.png */; };
+		F130DBB619ECFCED0073071C /* appIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBB319ECFCED0073071C /* appIcon80.png */; };
+		F130DBB719ECFCED0073071C /* appIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBB419ECFCED0073071C /* appIcon120.png */; };
+		F130DBBB19ECFDE40073071C /* tabBenefits copy.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBB819ECFDE40073071C /* tabBenefits copy.png */; };
+		F130DBBC19ECFDE40073071C /* tabCompany copy.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBB919ECFDE40073071C /* tabCompany copy.png */; };
+		F130DBBD19ECFDE40073071C /* tabHR copy.png in Resources */ = {isa = PBXBuildFile; fileRef = F130DBBA19ECFDE40073071C /* tabHR copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +112,12 @@
 		F130DBAB19ECF1790073071C /* customFields.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customFields.png; sourceTree = "<group>"; };
 		F130DBAC19ECF1790073071C /* employees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employees.png; sourceTree = "<group>"; };
 		F130DBAD19ECF1790073071C /* manageAdmins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manageAdmins.png; sourceTree = "<group>"; };
+		F130DBB219ECFCED0073071C /* appIcon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon40.png; sourceTree = "<group>"; };
+		F130DBB319ECFCED0073071C /* appIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon80.png; sourceTree = "<group>"; };
+		F130DBB419ECFCED0073071C /* appIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon120.png; sourceTree = "<group>"; };
+		F130DBB819ECFDE40073071C /* tabBenefits copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBenefits copy.png"; sourceTree = "<group>"; };
+		F130DBB919ECFDE40073071C /* tabCompany copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabCompany copy.png"; sourceTree = "<group>"; };
+		F130DBBA19ECFDE40073071C /* tabHR copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabHR copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +250,12 @@
 		F130DB8719ECC2530073071C /* app */ = {
 			isa = PBXGroup;
 			children = (
+				F130DBB819ECFDE40073071C /* tabBenefits copy.png */,
+				F130DBB919ECFDE40073071C /* tabCompany copy.png */,
+				F130DBBA19ECFDE40073071C /* tabHR copy.png */,
+				F130DBB219ECFCED0073071C /* appIcon40.png */,
+				F130DBB319ECFCED0073071C /* appIcon80.png */,
+				F130DBB419ECFCED0073071C /* appIcon120.png */,
 				F130DBA119ECECBC0073071C /* MPoweredLogo.png */,
 				F130DBA219ECECBC0073071C /* tabBenefits.png */,
 				F130DBA319ECECBC0073071C /* tabCompany.png */,
@@ -339,11 +357,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F130DBB519ECFCED0073071C /* appIcon40.png in Resources */,
 				F130DB9319ECC7CD0073071C /* textPayroll.png in Resources */,
+				F130DBBB19ECFDE40073071C /* tabBenefits copy.png in Resources */,
 				F130DB9519ECC7CD0073071C /* textReports.png in Resources */,
 				F130DB8019ECC2430073071C /* contractors.png in Resources */,
 				F130DB7C19ECC2430073071C /* commuterBenefits.png in Resources */,
 				F130DB8519ECC2430073071C /* stockOptions.png in Resources */,
+				F130DBB719ECFCED0073071C /* appIcon120.png in Resources */,
+				F130DBBD19ECFDE40073071C /* tabHR copy.png in Resources */,
 				F130DBA519ECECBC0073071C /* MPoweredLogo.png in Resources */,
 				F130DB7E19ECC2430073071C /* lifeDisability.png in Resources */,
 				F130DBA819ECECBC0073071C /* tabHR.png in Resources */,
@@ -359,6 +381,7 @@
 				F130DB8A19ECC2530073071C /* appIcon.png in Resources */,
 				F130DB8219ECC2430073071C /* payroll.png in Resources */,
 				F130DBB019ECF1790073071C /* employees.png in Resources */,
+				F130DBB619ECFCED0073071C /* appIcon80.png in Resources */,
 				F130DB8319ECC2430073071C /* ptoTracking.png in Resources */,
 				F130DB9219ECC7CD0073071C /* textEmployees.png in Resources */,
 				F130DB9C19ECCC270073071C /* textAttendance.png in Resources */,
@@ -370,6 +393,7 @@
 				F130DB5219EC9C8D0073071C /* LaunchScreen.xib in Resources */,
 				F130DB4F19EC9C8D0073071C /* Images.xcassets in Resources */,
 				F130DB8119ECC2430073071C /* employees.png in Resources */,
+				F130DBBC19ECFDE40073071C /* tabCompany copy.png in Resources */,
 				F130DBA619ECECBC0073071C /* tabBenefits.png in Resources */,
 				F130DBAE19ECF1790073071C /* companyInfo.png in Resources */,
 			);
